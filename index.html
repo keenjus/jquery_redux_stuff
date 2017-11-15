@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>test</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="content">
+        <input class="text-filter" type="text" data-filter-column-index="0" />
+        <ul class="checkbox-filter-group" data-filter-column-index="1" style="list-style-type: none; padding-left: 0;">
+            <li><label><input type="checkbox" checked value="PRO" />PRO</label></li>
+            <li><label><input type="checkbox" checked value="NOOB" />NOOB</label></li>
+        </ul>
+        <table id="tPerson">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>KennyS</td>
+                    <td>PRO</td>
+                </tr>
+                <tr>
+                    <td>Olofmeister</td>
+                    <td>PRO</td>
+                </tr>
+                <tr>
+                    <td>ScreaM</td>
+                    <td>NOOB</td>
+                </tr>
+                <tr>
+                    <td>CadiaN</td>
+                    <td>NOOB</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/redux/3.7.2/redux.min.js"></script>
+    <script src="js/index.js" type="text/babel"></script>
+</body>
+
+</html>
